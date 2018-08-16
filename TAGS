@@ -1,0 +1,28 @@
+
+2048.c,145
+void mvUp(7,79
+void mvDown(44,1272
+void mvRight(80,2459
+void mvLeft(126,4316
+void spawn(161,5444
+void printMsg(190,6126
+int main(197,6412
+
+matrix.c,286
+struct _matrix 7,81
+  int rows,8,98
+  int rows, cols;8,98
+  int * data;9,116
+int getE(12,134
+void setE(16,237
+int badArgs(20,343
+matrix * newMatrix(29,538
+void deleteMatrix(55,1039
+int setElement(64,1181
+int getElement(72,1356
+int printMatrix(82,1565
+int isSquare(101,2052
+
+matrix.h,59
+#define MATRIX_H_2,18
+typedef struct _matrix matrix;4,37
